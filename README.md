@@ -1,2 +1,2 @@
 # damartripamungkas.github.io
-Simple Blog And Portofolio
+Simple my Portofolio
