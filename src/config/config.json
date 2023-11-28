@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Portfolio - Damar",
+    "description": "My portfolio website",
+    "authors": { "name": "damartripamungkas" },
+    "publisher": "damartripamungkas"
+  },
+  "home": {
+    "text_1": "Turning Vision Into Reality With Code And Logic.",
+    "text_2": "Greetings and welcome to my portfolio. My name is Damar and I reside in Indonesia. I am a programmer developer specialized in frontend, backend, Android, and blockchain development. My expertise lies primarily in backend development. For more detailed information about my programming skills, please see my skills page."
+  },
+  "projects": [
+    {
+      "name": "BOTDEXDAMAR",
+      "category": ["Bot", "Paids"],
+      "image_src": "/projects/botdexdamar.png",
+      "image_alt": "github:botdexdamar:damartripamungkas:damarts.dev",
+      "url_repository": "https://github.com/damartripamungkas/botdexdamar",
+      "description": "⚡ Powerfull bot trade dex crypto on EVM machine"
+    },
+    {
+      "name": "EHQ-ABSENSI",
+      "category": [],
+      "image_src": "/projects/ehq-absensi.png",
+      "image_alt": "github:ehq-absensi:damartripamungkas:damarts.dev",
+      "url_repository": "https://github.com/damartripamungkas/ehq-absensi",
+      "description": "Software absensi qrcode with hardware qrcode scanner"
+    },
+    {
+      "name": "MADIG",
+      "category": [],
+      "image_src": "/projects/madig.png",
+      "image_alt": "github:madig:damartripamungkas:damarts.dev",
+      "url_repository": "https://github.com/damartripamungkas/madig",
+      "description": "Contribution project for the Maspion Madig 2023 competition"
+    },
+    {
+      "name": "SIMPLE-DASHBOARD-NEXT-14",
+      "category": [],
+      "image_src": "/projects/simple-dashboard-next-14.png",
+      "image_alt": "github:simple-dashboard-next-14:damartripamungkas:damarts.dev",
+      "url_repository": "https://github.com/damartripamungkas/simple-dashboard-next-14",
+      "description": "Application made with next.js 14, typescript, tailwind, daisyui, sequelize, mysql"
+    },
+    {
+      "name": "DEMO-TASK-DASHBOARD-MGG-11",
+      "category": [],
+      "image_src": "/projects/demo-task-dashboard-mgg-11.png",
+      "image_alt": "github:demo-task-dashboard-mgg-11:damartripamungkas:damarts.dev",
+      "url_repository": "https://github.com/damartripamungkas/demo-task-dashboard-mgg-11",
+      "description": "Application made with html, css, bootstrap, javascript"
+    },
+    {
+      "name": "DEMO-TASK-LANDINGPAGE-MGG-11",
+      "category": [],
+      "image_src": "/projects/demo-task-landingpage-mgg-11.png",
+      "image_alt": "github:demo-task-landingpage-mgg-11:damartripamungkas:damarts.dev",
+      "url_repository": "https://github.com/damartripamungkas/demo-task-landingpage-mgg-11",
+      "description": "Application made with html, css, bootstrap, javascript"
+    },
+    {
+      "name": "NPM PACKAGE",
+      "category": [],
+      "image_src": "/projects/npm-package.png",
+      "image_alt": "github:npm-package:damartripamungkas:damarts.dev",
+      "url_repository": "https://www.npmjs.com/~damartripamungkas",
+      "description": "The npm (Node Package Manager) libraries/packages that I have created"
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Javascript",
+      "type": "Language",
+      "understanding": "OOP, DOM browser, ES2015 ~ ES2023, etc"
+    },
+    {
+      "skill": "Typescript",
+      "type": "Language",
+      "understanding": "Type, Interface, Compiler, etc"
+    },
+    {
+      "skill": "Solidity",
+      "type": "Language",
+      "understanding": "Type, Interface, call method, contract method, block property, etc"
+    },
+    {
+      "skill": "Next.js",
+      "type": "Framework Fullstack",
+      "understanding": "SSR, CSR, app router, etc"
+    },
+    {
+      "skill": "Eta.js",
+      "type": "Framework Fullstack",
+      "understanding": "SSR, CSR, etc"
+    },
+    {
+      "skill": "Node.js",
+      "type": "Framework Backend",
+      "understanding": "ESM, CommonJs, etc"
+    },
+    {
+      "skill": "Express.js",
+      "type": "Framework Backend",
+      "understanding": "Restfull API, router, middleware, ratelimit, etc"
+    },
+    {
+      "skill": "Web3.js",
+      "type": "Library",
+      "understanding": "Eth call method, build idea, etc"
+    },
+    {
+      "skill": "HTML",
+      "type": "Markdown Language",
+      "understanding": "HTML 5, tag, etc"
+    },
+    {
+      "skill": "CSS",
+      "type": "Markdown Language",
+      "understanding": "Color, Space, etc"
+    },
+    {
+      "skill": "Bootstrap 5",
+      "type": "Framework CSS",
+      "understanding": "Styling, etc"
+    },
+    {
+      "skill": "Tailwind",
+      "type": "Framework CSS",
+      "understanding": "Styling, etc"
+    },
+    {
+      "skill": "DaisyUI (based tailwind)",
+      "type": "Framework CSS",
+      "understanding": "Styling, etc"
+    },
+    {
+      "skill": "Mariadb/Mysql",
+      "type": "Database Server",
+      "understanding": "SQL syntax, pool, etc"
+    },
+    {
+      "skill": "Web scrapping",
+      "type": "bot",
+      "understanding": "Web scrapping static/dinamic, cookie handler, proxy scrapping, with browser automation, with script only, etc"
+    },
+    {
+      "skill": "Bot Social Media",
+      "type": "bot",
+      "understanding": "Bot telegram (official), Bot whatsapp (unofficial), etc"
+    },
+    {
+      "skill": "Automation Blockchain",
+      "type": "bot",
+      "understanding": "Auto swap token in dex, build idea with eth method, exploit, sniper, etc"
+    },
+    {
+      "skill": "...",
+      "type": "...",
+      "understanding": "..."
+    }
+  ],
+  "contact": [
+    {
+      "name": "Github",
+      "url_redirect": "https://github.com/damartripamungkas"
+    },
+    {
+      "name": "Email",
+      "url_redirect": "mailto:damartripamungkas01@gmail.com"
+    },
+    {
+      "name": "Telegram",
+      "url_redirect": "https://t.me/damartripamungkas"
+    }
+  ]
+}
