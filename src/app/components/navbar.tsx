@@ -58,15 +58,14 @@ export default function Navbar() {
 
       <div className="flex">
         <div className="flex flex-shrink-0 items-center">
-          <a
-            href="#"
+          <button
             className="text-sm btn btn-circle btn-sm"
             onClick={() => {
               setTheme(theme == "dark" ? "light" : "dark")
             }}
           >
             CT
-          </a>
+          </button>
         </div>
       </div>
 
