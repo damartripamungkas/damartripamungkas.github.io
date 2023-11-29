@@ -16,7 +16,7 @@ export default function Page() {
                 <Card
                   key={index}
                   href={it.url_repository}
-                  extraClassName={`card-compact hover:bg-neutral-content transition`}
+                  extraClassName={`card-compact hover:bg-base-200 transition`}
                   imageSrc={it.image_src}
                   imageAlt={it.image_alt}
                   content={{ title: it.name, description: it.description }}
