@@ -6,6 +6,8 @@
     "publisher": "damartripamungkas"
   },
   "home": {
+    "image_src": "/profile.png",
+    "image_alt": "profile:damartripamungkas",
     "text_1": "Turning Vision Into Reality With Code And Logic.",
     "text_2": "Greetings and welcome to my portfolio. My name is Damar and I reside in Indonesia. I am a programmer developer specialized in frontend, backend, Android, and blockchain development. My expertise lies primarily in backend development. For more detailed information about my programming skills, please see my skills page."
   },
@@ -16,7 +18,23 @@
       "image_src": "/projects/botdexdamar.png",
       "image_alt": "github:botdexdamar:damartripamungkas:damarts.dev",
       "url_repository": "https://github.com/damartripamungkas/botdexdamar",
-      "description": "⚡ Powerfull bot trade dex crypto on EVM machine"
+      "description": "[PRODUCTION LEVEL] ⚡ Powerfull bot trade dex crypto on EVM machine"
+    },
+    {
+      "name": "SIMPLE-DASHBOARD-NEXT-14",
+      "category": [],
+      "image_src": "/projects/simple-dashboard-next-14.png",
+      "image_alt": "github:simple-dashboard-next-14:damartripamungkas:damarts.dev",
+      "url_repository": "https://github.com/damartripamungkas/simple-dashboard-next-14",
+      "description": "Application made with next.js 14, typescript, tailwind, daisyui, sequelize, mysql"
+    },
+    {
+      "name": "DAMARTRIPAMUNGKAS-GITHUB-IO",
+      "category": [],
+      "image_src": "/projects/damartripamungkas.github.io.png",
+      "image_alt": "github:damartripamungkas.github.io:damartripamungkas:damarts.dev",
+      "url_repository": "https://github.com/damartripamungkas/damartripamungkas.github.io",
+      "description": "Simple personal website portfolio & blog"
     },
     {
       "name": "EHQ-ABSENSI",
@@ -27,20 +45,20 @@
       "description": "Software absensi qrcode with hardware qrcode scanner"
     },
     {
+      "name": "NPM PACKAGE",
+      "category": [],
+      "image_src": "/projects/npm-package.png",
+      "image_alt": "github:npm-package:damartripamungkas:damarts.dev",
+      "url_repository": "https://www.npmjs.com/~damartripamungkas",
+      "description": "The npm (Node Package Manager) libraries/packages that I have created"
+    },
+    {
       "name": "MADIG",
       "category": [],
       "image_src": "/projects/madig.png",
       "image_alt": "github:madig:damartripamungkas:damarts.dev",
       "url_repository": "https://github.com/damartripamungkas/madig",
       "description": "Contribution project for the Maspion Madig 2023 competition"
-    },
-    {
-      "name": "SIMPLE-DASHBOARD-NEXT-14",
-      "category": [],
-      "image_src": "/projects/simple-dashboard-next-14.png",
-      "image_alt": "github:simple-dashboard-next-14:damartripamungkas:damarts.dev",
-      "url_repository": "https://github.com/damartripamungkas/simple-dashboard-next-14",
-      "description": "Application made with next.js 14, typescript, tailwind, daisyui, sequelize, mysql"
     },
     {
       "name": "DEMO-TASK-DASHBOARD-MGG-11",
@@ -57,14 +75,6 @@
       "image_alt": "github:demo-task-landingpage-mgg-11:damartripamungkas:damarts.dev",
       "url_repository": "https://github.com/damartripamungkas/demo-task-landingpage-mgg-11",
       "description": "Application made with html, css, bootstrap, javascript"
-    },
-    {
-      "name": "NPM PACKAGE",
-      "category": [],
-      "image_src": "/projects/npm-package.png",
-      "image_alt": "github:npm-package:damartripamungkas:damarts.dev",
-      "url_repository": "https://www.npmjs.com/~damartripamungkas",
-      "description": "The npm (Node Package Manager) libraries/packages that I have created"
     }
   ],
   "skills": [
