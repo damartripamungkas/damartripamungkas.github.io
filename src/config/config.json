@@ -7,7 +7,7 @@
   },
   "home": {
     "image_src": "/profile.png",
-    "image_alt": "profile:damartripamungkas",
+    "image_alt": "damartripamungkas",
     "text_1": "Turning Vision Into Reality With Code And Logic.",
     "text_2": "Greetings and welcome to my portfolio. My name is Damar and I reside in Indonesia. I am a programmer developer specialized in frontend, backend, Android, and blockchain development. My expertise lies primarily in backend development. For more detailed information about my programming skills, please see my skills page."
   },
@@ -16,7 +16,7 @@
       "name": "BOTDEXDAMAR",
       "category": ["Bot", "Paids"],
       "image_src": "/projects/botdexdamar.png",
-      "image_alt": "github:botdexdamar:damartripamungkas:damarts.dev",
+      "image_alt": "botdexdamar",
       "url_repository": "https://github.com/damartripamungkas/botdexdamar",
       "description": "[PRODUCTION LEVEL] ⚡ Powerfull bot trade dex crypto on EVM machine"
     },
@@ -24,7 +24,7 @@
       "name": "SIMPLE-DASHBOARD-NEXT-14",
       "category": [],
       "image_src": "/projects/simple-dashboard-next-14.png",
-      "image_alt": "github:simple-dashboard-next-14:damartripamungkas:damarts.dev",
+      "image_alt": "simple-dashboard-next-14",
       "url_repository": "https://github.com/damartripamungkas/simple-dashboard-next-14",
       "description": "Application made with next.js 14, typescript, tailwind, daisyui, sequelize, mysql"
     },
@@ -32,7 +32,7 @@
       "name": "DAMARTRIPAMUNGKAS-GITHUB-IO",
       "category": [],
       "image_src": "/projects/damartripamungkas.github.io.png",
-      "image_alt": "github:damartripamungkas.github.io:damartripamungkas:damarts.dev",
+      "image_alt": "damartripamungkas.github.io",
       "url_repository": "https://github.com/damartripamungkas/damartripamungkas.github.io",
       "description": "Simple personal website portfolio & blog"
     },
@@ -40,15 +40,23 @@
       "name": "EHQ-ABSENSI",
       "category": [],
       "image_src": "/projects/ehq-absensi.png",
-      "image_alt": "github:ehq-absensi:damartripamungkas:damarts.dev",
+      "image_alt": "ehq-absensi",
       "url_repository": "https://github.com/damartripamungkas/ehq-absensi",
       "description": "Software absensi qrcode with hardware qrcode scanner"
+    },
+    {
+      "name": "CUSTOM-KEY-WALLET-CRYPTO",
+      "category": [],
+      "image_src": "/projects/custom-key-wallet-crypto.png",
+      "image_alt": "custom-key-wallet-crypto",
+      "url_repository": "https://github.com/damartripamungkas/custom-key-wallet-crypto",
+      "description": "Website will create a cryptocurrency wallet with customized private keys generated from words"
     },
     {
       "name": "NPM PACKAGE",
       "category": [],
       "image_src": "/projects/npm-package.png",
-      "image_alt": "github:npm-package:damartripamungkas:damarts.dev",
+      "image_alt": "npm-package",
       "url_repository": "https://www.npmjs.com/~damartripamungkas",
       "description": "The npm (Node Package Manager) libraries/packages that I have created"
     },
@@ -56,7 +64,7 @@
       "name": "MADIG",
       "category": [],
       "image_src": "/projects/madig.png",
-      "image_alt": "github:madig:damartripamungkas:damarts.dev",
+      "image_alt": "madig",
       "url_repository": "https://github.com/damartripamungkas/madig",
       "description": "Contribution project for the Maspion Madig 2023 competition"
     },
@@ -64,7 +72,7 @@
       "name": "DEMO-TASK-DASHBOARD-MGG-11",
       "category": [],
       "image_src": "/projects/demo-task-dashboard-mgg-11.png",
-      "image_alt": "github:demo-task-dashboard-mgg-11:damartripamungkas:damarts.dev",
+      "image_alt": "demo-task-dashboard-mgg-11",
       "url_repository": "https://github.com/damartripamungkas/demo-task-dashboard-mgg-11",
       "description": "Application made with html, css, bootstrap, javascript"
     },
@@ -72,7 +80,7 @@
       "name": "DEMO-TASK-LANDINGPAGE-MGG-11",
       "category": [],
       "image_src": "/projects/demo-task-landingpage-mgg-11.png",
-      "image_alt": "github:demo-task-landingpage-mgg-11:damartripamungkas:damarts.dev",
+      "image_alt": "demo-task-landingpage-mgg-11",
       "url_repository": "https://github.com/damartripamungkas/demo-task-landingpage-mgg-11",
       "description": "Application made with html, css, bootstrap, javascript"
     }
