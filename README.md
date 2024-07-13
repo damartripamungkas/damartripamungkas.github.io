@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="damartripamungkas" src="./public/profile.png" height="34%" width="34%">
+  <img alt="damartripamungkas" src="./public/profile.png" height="400px" width="350px">
 </p>
 
 ## 📖 Introduction
