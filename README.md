@@ -10,13 +10,13 @@ Greetings and welcome to my portfolio. My name is Damar and I reside in Indonesi
 
 | Project                      | Type            | Description                                       | Repository                                                                |
 | ---------------------------- | --------------- | ------------------------------------------------- | ------------------------------------------------------------------------- |
-| Botdexdamar                  | Software bot    | Powerfull bot trade dex crypto on EVM machine..   | [here](https://github.com/damartripamungkas/botdexdamar)                  |
-| Simple-dashboard-next-14     | Webapp          | App made with next.js 14..                        | [here](https://github.com/damartripamungkas/simple-dashboard-next-14)     |
+| Botdexdamar                  | Software-bot    | Powerfull bot trade dex crypto on EVM machine..   | [here](https://github.com/damartripamungkas/botdexdamar)                  |
+| Simple-dashboard-next-14     | Web-app         | App made with next.js 14..                        | [here](https://github.com/damartripamungkas/simple-dashboard-next-14)     |
 | Damartripamungkas-github-io  | Web             | Simple personal website portfolio & blog..        | [here](https://github.com/damartripamungkas/damartripamungkas.github.io)  |
-| Ehq-absensi                  | Webapp          | App absensi qrcode with hardware qrcode scanner.. | [here](https://github.com/damartripamungkas/ehq-absensi)                  |
+| Ehq-absensi                  | Web-app         | App absensi qrcode with hardware qrcode scanner.. | [here](https://github.com/damartripamungkas/ehq-absensi)                  |
 | Custom-key-wallet-crypto     | Web             | Website will create a cryptocurrency wallet..     | [here](https://github.com/damartripamungkas/custom-key-wallet-crypto)     |
 | Npm-package                  | Package         | The npm (Node Package Manager)..                  | [here](https://www.npmjs.com/~damartripamungkas)                          |
-| Madig                        | Webview android | Contribution project..                            | [here](https://github.com/damartripamungkas/madig)                        |
+| Madig                        | Webview-android | Contribution project..                            | [here](https://github.com/damartripamungkas/madig)                        |
 | Demo-task-dashboard-mgg-11   | Web             | Web made with html, css, bootstrap, javascript..  | [here](https://github.com/damartripamungkas/demo-task-dashboard-mgg-11)   |
 | Demo-task-landingpage-mgg-11 | Web             | Web made with html, css, bootstrap, javascript..  | [here](https://github.com/damartripamungkas/demo-task-landingpage-mgg-11) |
 
