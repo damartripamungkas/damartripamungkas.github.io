@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar"
 import Container from "../components/container"
 import Card from "./card"
-const { projects } = require("~/config/config.json")
+const { projects_me } = require("~/config/config.json")
 
 export default function Page() {
   return (
@@ -11,7 +11,7 @@ export default function Page() {
         <>
           <Navbar />
           <div className="pt-16 pb-16 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {projects.map((it: any, index: number) => {
+            {projects_me.map((it: any, index: number) => {
               return (
                 <Card
                   key={index}

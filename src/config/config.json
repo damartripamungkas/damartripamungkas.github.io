@@ -1,88 +1,196 @@
 {
   "meta": {
-    "title": "Portfolio - Damar",
+    "title": "Damar - Portfolio",
     "description": "My portfolio website",
     "authors": { "name": "damartripamungkas" },
-    "publisher": "damartripamungkas"
+    "publisher": "damartripamungkas",
+    "category": "portfolio",
+    "keywords": "damar, damarts, damartripamungkas, next.js, react.js, node.js, html"
   },
   "home": {
     "image_src": "/profile.png",
     "image_alt": "damartripamungkas",
     "text_1": "Turning Vision Into Reality With Code And Logic.",
-    "text_2": "Greetings and welcome to my portfolio. My name is Damar and I reside in Indonesia. I am a programmer developer specialized in frontend, backend, Android, and blockchain development. My expertise lies primarily in backend development. For more detailed information about my programming skills, please see my skills page."
+    "text_2": "Greetings and welcome to my portfolio. My name is Damar and I reside in Indonesia. I am a programmer developer specialized in frontend, backend, and blockchain development. My expertise lies primarily in backend development. For more detailed information about my programming skills, please see my skills page."
   },
-  "projects": [
+  "projects_me": [
     {
       "name": "BOTDEXDAMAR",
-      "category": ["Bot", "Paids"],
-      "image_src": "/projects/botdexdamar.png",
+      "category": ["software-bot"],
+      "image_src": "/projects-me/botdexdamar.png",
       "image_alt": "botdexdamar",
       "url_repository": "https://github.com/damartripamungkas/botdexdamar",
-      "description": "[PRODUCTION LEVEL] ⚡ Powerfull bot trade dex crypto on EVM machine"
+      "description": "[PAID] ⚡ Multiblockchain trading bot with sniper, simulation, frontrun, backrun, sandwich"
     },
     {
       "name": "SIMPLE-DASHBOARD-NEXT-14",
-      "category": [],
-      "image_src": "/projects/simple-dashboard-next-14.png",
+      "category": ["web-app"],
+      "image_src": "/projects-me/simple-dashboard-next-14.png",
       "image_alt": "simple-dashboard-next-14",
       "url_repository": "https://github.com/damartripamungkas/simple-dashboard-next-14",
       "description": "Application made with next.js 14, typescript, tailwind, daisyui, sequelize, mysql"
     },
     {
       "name": "DAMARTRIPAMUNGKAS-GITHUB-IO",
-      "category": [],
-      "image_src": "/projects/damartripamungkas.github.io.png",
+      "category": ["web-app"],
+      "image_src": "/projects-me/damartripamungkas.github.io.png",
       "image_alt": "damartripamungkas.github.io",
       "url_repository": "https://github.com/damartripamungkas/damartripamungkas.github.io",
-      "description": "Simple personal website portfolio & blog"
+      "description": "Simple personal website portfolio"
     },
     {
       "name": "EHQ-ABSENSI",
-      "category": [],
-      "image_src": "/projects/ehq-absensi.png",
+      "category": ["web-app"],
+      "image_src": "/projects-me/ehq-absensi.png",
       "image_alt": "ehq-absensi",
       "url_repository": "https://github.com/damartripamungkas/ehq-absensi",
       "description": "Software absensi qrcode with hardware qrcode scanner"
     },
     {
       "name": "CUSTOM-KEY-WALLET-CRYPTO",
-      "category": [],
-      "image_src": "/projects/custom-key-wallet-crypto.png",
+      "category": ["web"],
+      "image_src": "/projects-me/custom-key-wallet-crypto.png",
       "image_alt": "custom-key-wallet-crypto",
       "url_repository": "https://github.com/damartripamungkas/custom-key-wallet-crypto",
       "description": "Website will create a cryptocurrency wallet with customized private keys generated from words"
     },
     {
-      "name": "NPM PACKAGE",
-      "category": [],
-      "image_src": "/projects/npm-package.png",
+      "name": "NPM-PACKAGE",
+      "category": ["package"],
+      "image_src": "/projects-me/npm-package.png",
       "image_alt": "npm-package",
       "url_repository": "https://www.npmjs.com/~damartripamungkas",
       "description": "The npm (Node Package Manager) libraries/packages that I have created"
     },
     {
       "name": "MADIG",
-      "category": [],
-      "image_src": "/projects/madig.png",
+      "category": ["webview-android"],
+      "image_src": "/projects-me/madig.png",
       "image_alt": "madig",
       "url_repository": "https://github.com/damartripamungkas/madig",
       "description": "Contribution project for the Maspion Madig 2023 competition"
     },
     {
       "name": "DEMO-TASK-DASHBOARD-MGG-11",
-      "category": [],
-      "image_src": "/projects/demo-task-dashboard-mgg-11.png",
+      "category": ["web"],
+      "image_src": "/projects-me/demo-task-dashboard-mgg-11.png",
       "image_alt": "demo-task-dashboard-mgg-11",
       "url_repository": "https://github.com/damartripamungkas/demo-task-dashboard-mgg-11",
       "description": "Application made with html, css, bootstrap, javascript"
     },
     {
       "name": "DEMO-TASK-LANDINGPAGE-MGG-11",
-      "category": [],
-      "image_src": "/projects/demo-task-landingpage-mgg-11.png",
+      "category": ["web"],
+      "image_src": "/projects-me/demo-task-landingpage-mgg-11.png",
       "image_alt": "demo-task-landingpage-mgg-11",
       "url_repository": "https://github.com/damartripamungkas/demo-task-landingpage-mgg-11",
       "description": "Application made with html, css, bootstrap, javascript"
+    }
+  ],
+  "projects_client": [
+    {
+      "name": "BOTCOTG",
+      "category": ["bot"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#1 Bot crypto for swap token with several features"
+    },
+    {
+      "name": "CREATE-PROJECT-STUDY",
+      "category": ["script-backend"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#2 Create backend scripts for interaction to blockchain and singleboard PI (iot)"
+    },
+    {
+      "name": "CREATE-BOT",
+      "category": ["bot"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#3 Bot auto get mutation and balance from bank web with chromium"
+    },
+    {
+      "name": "HELP-STUDY-PROJECT",
+      "category": ["script-backend"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#4 Create script interact to blockchain and REST API"
+    },
+    {
+      "name": "AUTO-JOIN-VOICE-CHAT",
+      "category": ["bot"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#5-1 Bot auto join voice chat group in telegram"
+    },
+    {
+      "name": "FILTER-TELEGRAM-USER",
+      "category": ["bot"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#5-2 Bot filtering telegram channel messages and forwarding"
+    },
+    {
+      "name": "HELP-STUDY-PROJECT",
+      "category": ["script-fix"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#6 Fix error script in backend, frontend and make tutorial interact to blockchain"
+    },
+    {
+      "name": "CREATE-SCRIPT",
+      "category": ["script-backend"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#7 Create constructor script for interact to blockchain"
+    },
+    {
+      "name": "BOT-DALANG-YOUTUBE",
+      "category": ["bot"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#8-1 Bot auto view video youtube in chromium with several features"
+    },
+    {
+      "name": "AUTO-BROWSER-CHROME",
+      "category": ["bot"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#8-2 Bot auto view video youtube with several features"
+    },
+    {
+      "name": "WEB-FAIRLAUNCH",
+      "category": ["web"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#9-1 Web fairlaunch crypto token"
+    },
+    {
+      "name": "WEB-BOA",
+      "category": ["web"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#9-2 Web information crypto token"
+    },
+    {
+      "name": "WEB-BOB",
+      "category": ["web"],
+      "image_src": "/projects-client/npm-package.png",
+      "image_alt": "client",
+      "url_repository": "#",
+      "description": "#9-3 Web information crypto token"
     }
   ],
   "skills": [

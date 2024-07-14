@@ -1,5 +1,6 @@
 "use client"
 import { useState } from "react"
+const { contact } = require("~/config/config.json")
 
 interface IfaceRenderModal {
   isOpen: boolean
@@ -12,8 +13,7 @@ const RenderModal = ({ isOpen, callbackClose }: IfaceRenderModal) => {
       <div className="modal-box">
         <h3 className="font-bold text-lg">Resume</h3>
         <p className="py-4">
-          At this time, availability for public access is not available. If you require access,
-          please contact me directly. Thank you.
+          At this time, availability for public access is not available. If you require access, please contact me directly. Thank you.
         </p>
         <div className="modal-action">
           <form method="dialog">
@@ -38,7 +38,7 @@ export default function Page() {
   return (
     <>
       <RenderModal isOpen={openModal} callbackClose={setOpenModal} />
-      <div className="flex flex-row gap-4">
+      <div className="flex flex-row gap-3">
         <button
           className="btn btn-outline"
           onClick={() => {
@@ -47,9 +47,15 @@ export default function Page() {
         >
           Resume
         </button>
-        <a href="/contact" className="btn btn-outline">
+        {/* <a href="/contact" className="btn btn-outline">
           Contact
-        </a>
+        </a> */}
+
+        {contact.map((it: any, index: number) => (
+          <a key={index} href={it.url_redirect} about={it.name} className="btn btn-outline">
+            {it.name}
+          </a>
+        ))}
       </div>
     </>
   )

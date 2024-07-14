@@ -1,14 +1,16 @@
 "use client"
 import { useTheme } from "next-themes"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
 import { FiMenu, FiMoon, FiSun } from "react-icons/fi"
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Projects", href: "/projects" },
-  { name: "Skills", href: "/skills" },
-  { name: "Contact", href: "/contact" }
+  { name: "Projects Me", href: "/projects-me" },
+  { name: "Projects Client", href: "/projects-client" },
+  { name: "Skills", href: "/skills" }
+  // { name: "Contact", href: "/contact" }
 ]
 
 const classNames = (...classes: string[]) => {
@@ -35,14 +37,7 @@ export default function Navbar() {
       <div className="flex">
         <div className="flex flex-shrink-0 items-center">
           <a href="/">
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              className="text-neutral-content"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" className="text-neutral-content" xmlns="http://www.w3.org/2000/svg">
               <rect width="100%" height="100%" rx="16" fill="currentColor" />
               <path
                 fillRule="evenodd"
@@ -59,9 +54,7 @@ export default function Navbar() {
               key={item.name}
               href={item.href}
               className={classNames(
-                pathName === item.href
-                  ? "border-base-content"
-                  : "border-transparent hover:border-base-content",
+                pathName === item.href ? "border-base-content" : "border-transparent hover:border-base-content",
                 "inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-all"
               )}
             >
@@ -99,9 +92,7 @@ export default function Navbar() {
                   </li>
                 )),
                 <li key={navigation.length} className="pt-3">
-                  <a onClick={onClickSetTheme}>
-                    {isClient ? iconTheme : <span className="loading loading-spinner"></span>}
-                  </a>
+                  <a onClick={onClickSetTheme}>{isClient ? iconTheme : <span className="loading loading-spinner"></span>}</a>
                 </li>
               ]}
             </ul>
