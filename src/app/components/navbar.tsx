@@ -21,8 +21,8 @@ export default function Navbar() {
   const { theme, setTheme } = useTheme()
   const [isClient, setIsClient] = useState(false)
   const pathName = usePathname()
-  const antonymTheme = theme == "dark" ? "light" : "dark"
-  const iconTheme = antonymTheme == "dark" ? <FiMoon size={22} /> : <FiSun size={22} />
+  const antonymTheme = theme == `dark` ? `light` : `dark`
+  const iconTheme = antonymTheme == `dark` ? <FiMoon size={22} /> : <FiSun size={22} />
   const onClickSetTheme = () => {
     setTheme(antonymTheme)
     document.body.setAttribute("data-theme", antonymTheme)
@@ -67,9 +67,9 @@ export default function Navbar() {
       <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
         <div className="flex">
           <div className="flex flex-shrink-0 items-center">
-            <button className="btn btn-circle btn-sm" onClick={onClickSetTheme}>
+            {/* <button className="btn btn-circle btn-sm" onClick={onClickSetTheme}>
               {isClient ? iconTheme : <span className="loading loading-spinner"></span>}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
