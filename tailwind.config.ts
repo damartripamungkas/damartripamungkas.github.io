@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {},
   daisyui: {
-    themes: ["corporate", "dark"],
+    themes: ["corporate"],
     darkTheme: "dark"
   },
   plugins: [require("daisyui")]
