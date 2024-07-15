@@ -91,7 +91,7 @@
     {
       "name": "BOTCOTG",
       "category": ["bot"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/1.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#1 Bot crypto for swap token with several features"
@@ -99,7 +99,7 @@
     {
       "name": "CREATE-PROJECT-STUDY",
       "category": ["script-backend"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/2.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#2 Create backend scripts for interaction to blockchain and singleboard PI (iot)"
@@ -107,7 +107,7 @@
     {
       "name": "CREATE-BOT",
       "category": ["bot"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/3.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#3 Bot auto get mutation and balance from bank web with chromium"
@@ -115,7 +115,7 @@
     {
       "name": "HELP-STUDY-PROJECT",
       "category": ["script-backend"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/4.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#4 Create script interact to blockchain and REST API"
@@ -123,7 +123,7 @@
     {
       "name": "AUTO-JOIN-VOICE-CHAT",
       "category": ["bot"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/5-1.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#5-1 Bot auto join voice chat group in telegram"
@@ -131,7 +131,7 @@
     {
       "name": "FILTER-TELEGRAM-USER",
       "category": ["bot"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/5-2.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#5-2 Bot filtering telegram channel messages and forwarding"
@@ -139,7 +139,7 @@
     {
       "name": "HELP-STUDY-PROJECT",
       "category": ["script-fix"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/6.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#6 Fix error script in backend, frontend and make tutorial interact to blockchain"
@@ -147,7 +147,7 @@
     {
       "name": "CREATE-SCRIPT",
       "category": ["script-backend"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/7.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#7 Create constructor script for interact to blockchain"
@@ -155,7 +155,7 @@
     {
       "name": "BOT-DALANG-YOUTUBE",
       "category": ["bot"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/8-1.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#8-1 Bot auto view video youtube in chromium with several features"
@@ -163,7 +163,7 @@
     {
       "name": "AUTO-BROWSER-CHROME",
       "category": ["bot"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/8-2.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#8-2 Bot auto view video youtube with several features"
@@ -171,7 +171,7 @@
     {
       "name": "WEB-FAIRLAUNCH",
       "category": ["web"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/9-1.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#9-1 Web fairlaunch crypto token"
@@ -179,7 +179,7 @@
     {
       "name": "WEB-BOA",
       "category": ["web"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/9-2.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#9-2 Web information crypto token"
@@ -187,7 +187,7 @@
     {
       "name": "WEB-BOB",
       "category": ["web"],
-      "image_src": "/projects-client/npm-package.png",
+      "image_src": "/projects-client/9-3.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#9-3 Web information crypto token"
