@@ -92,6 +92,7 @@
       "name": "BOTCOTG",
       "category": ["bot"],
       "image_src": "/projects-client/1-1.png",
+      "image_src": "/projects-client/1-1.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#1-1 Bot crypto for swap token with several features"
@@ -99,6 +100,7 @@
     {
       "name": "CREATE-PROJECT-STUDY",
       "category": ["script-backend"],
+      "image_src": "/projects-client/2-1.png",
       "image_src": "/projects-client/2-1.png",
       "image_alt": "client",
       "url_repository": "#",
@@ -108,6 +110,7 @@
       "name": "CREATE-BOT",
       "category": ["bot"],
       "image_src": "/projects-client/3-1.png",
+      "image_src": "/projects-client/3-1.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#3-1 Bot auto get mutation and balance from bank web with chromium"
@@ -115,6 +118,7 @@
     {
       "name": "HELP-STUDY-PROJECT",
       "category": ["script-backend"],
+      "image_src": "/projects-client/4-1.png",
       "image_src": "/projects-client/4-1.png",
       "image_alt": "client",
       "url_repository": "#",
@@ -140,6 +144,7 @@
       "name": "HELP-STUDY-PROJECT",
       "category": ["script-fix"],
       "image_src": "/projects-client/6-1.png",
+      "image_src": "/projects-client/6-1.png",
       "image_alt": "client",
       "url_repository": "#",
       "description": "#6-1 Fix error script in backend, frontend and make tutorial interact to blockchain"
@@ -147,6 +152,7 @@
     {
       "name": "CREATE-SCRIPT",
       "category": ["script-backend"],
+      "image_src": "/projects-client/7-1.png",
       "image_src": "/projects-client/7-1.png",
       "image_alt": "client",
       "url_repository": "#",
