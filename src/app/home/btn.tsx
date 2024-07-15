@@ -40,7 +40,7 @@ export default function Page() {
       <RenderModal isOpen={openModal} callbackClose={setOpenModal} />
       <div className="flex flex-row gap-3">
         <button
-          className="btn btn-outline"
+          className="btn btn-neutral"
           onClick={() => {
             setOpenModal(true)
           }}
@@ -52,7 +52,7 @@ export default function Page() {
         </a> */}
 
         {contact.map((it: any, index: number) => (
-          <a key={index} href={it.url_redirect} about={it.name} className="btn btn-outline">
+          <a key={index} href={it.url_redirect} about={it.name} className="btn btn-sm btn-outline">
             {it.name}
           </a>
         ))}

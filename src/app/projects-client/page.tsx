@@ -11,18 +11,16 @@ export default function Page() {
         <>
           <Navbar />
           <div className="pt-16 pb-16 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {projects_client.map((it: any, index: number) => {
-              return (
-                <Card
-                  key={index}
-                  href={it.url_repository}
-                  extraClassName={`card-compact hover:bg-base-200 transition`}
-                  imageSrc={it.image_src}
-                  imageAlt={it.image_alt}
-                  content={{ title: it.name, description: it.description }}
-                />
-              )
-            })}
+            {projects_client.map((it: any, index: number) => (
+              <Card
+                key={index}
+                href={it.url_repository}
+                extraClassName={`card-compact hover:bg-base-200 transition`}
+                imageSrc={it.image_src}
+                imageAlt={it.image_alt}
+                content={{ title: it.name, description: it.description }}
+              />
+            ))}
           </div>
         </>
       }
