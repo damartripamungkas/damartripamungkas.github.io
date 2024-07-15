@@ -18,7 +18,7 @@ export default function Page() {
               width={0}
               height={0}
               sizes="100%"
-              className="h-[32rem] w-[33rem]"
+              className="h-[32rem] w-[34rem]"
               priority={true}
               quality={100}
             />

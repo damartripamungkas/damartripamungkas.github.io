@@ -91,34 +91,38 @@
     {
       "name": "BOTCOTG",
       "category": ["bot"],
-      "image_src": "/projects-client/1.png",
+      "image_src": "/projects-client/1-1.png",
+      "image_src": "/projects-client/1-1.png",
       "image_alt": "client",
       "url_repository": "#",
-      "description": "#1 Bot crypto for swap token with several features"
+      "description": "#1-1 Bot crypto for swap token with several features"
     },
     {
       "name": "CREATE-PROJECT-STUDY",
       "category": ["script-backend"],
-      "image_src": "/projects-client/2.png",
+      "image_src": "/projects-client/2-1.png",
+      "image_src": "/projects-client/2-1.png",
       "image_alt": "client",
       "url_repository": "#",
-      "description": "#2 Create backend scripts for interaction to blockchain and singleboard PI (iot)"
+      "description": "#2-1 Create backend scripts for interaction to blockchain and singleboard PI (iot)"
     },
     {
       "name": "CREATE-BOT",
       "category": ["bot"],
-      "image_src": "/projects-client/3.png",
+      "image_src": "/projects-client/3-1.png",
+      "image_src": "/projects-client/3-1.png",
       "image_alt": "client",
       "url_repository": "#",
-      "description": "#3 Bot auto get mutation and balance from bank web with chromium"
+      "description": "#3-1 Bot auto get mutation and balance from bank web with chromium"
     },
     {
       "name": "HELP-STUDY-PROJECT",
       "category": ["script-backend"],
-      "image_src": "/projects-client/4.png",
+      "image_src": "/projects-client/4-1.png",
+      "image_src": "/projects-client/4-1.png",
       "image_alt": "client",
       "url_repository": "#",
-      "description": "#4 Create script interact to blockchain and REST API"
+      "description": "#4-1 Create script interact to blockchain and REST API"
     },
     {
       "name": "AUTO-JOIN-VOICE-CHAT",
@@ -139,18 +143,20 @@
     {
       "name": "HELP-STUDY-PROJECT",
       "category": ["script-fix"],
-      "image_src": "/projects-client/6.png",
+      "image_src": "/projects-client/6-1.png",
+      "image_src": "/projects-client/6-1.png",
       "image_alt": "client",
       "url_repository": "#",
-      "description": "#6 Fix error script in backend, frontend and make tutorial interact to blockchain"
+      "description": "#6-1 Fix error script in backend, frontend and make tutorial interact to blockchain"
     },
     {
       "name": "CREATE-SCRIPT",
       "category": ["script-backend"],
-      "image_src": "/projects-client/7.png",
+      "image_src": "/projects-client/7-1.png",
+      "image_src": "/projects-client/7-1.png",
       "image_alt": "client",
       "url_repository": "#",
-      "description": "#7 Create constructor script for interact to blockchain"
+      "description": "#7-1 Create constructor script for interact to blockchain"
     },
     {
       "name": "BOT-DALANG-YOUTUBE",
