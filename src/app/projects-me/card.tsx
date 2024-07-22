@@ -22,14 +22,7 @@ interface IfaceCard {
   href: string
 }
 
-const RenderModal = ({
-  isOpen,
-  callbackClose,
-  contentTitle,
-  contentImageSrc,
-  contentImageAlt,
-  contentVisitHref
-}: IfaceRenderModal) => {
+const RenderModal = ({ isOpen, callbackClose, contentTitle, contentImageSrc, contentImageAlt, contentVisitHref }: IfaceRenderModal) => {
   return (
     <dialog className="modal" open={isOpen}>
       <div className="modal-box w-full sm:max-w-full md:max-w-6xl lg:max-w-5xl">
@@ -89,16 +82,7 @@ export default function Card({ content, extraClassName, imageSrc, imageAlt, href
         }}
       >
         {imageSrc && imageAlt && (
-          <Image
-            alt={imageAlt}
-            src={imageSrc}
-            width={0}
-            height={0}
-            sizes="100%"
-            className="h-64 w-full"
-            priority={true}
-            quality={100}
-          />
+          <Image alt={imageAlt} src={imageSrc} width={0} height={0} sizes="100%" className="w-full max-h-48" priority={true} quality={100} />
         )}
         <div className="card-body">
           <div className="text-center">

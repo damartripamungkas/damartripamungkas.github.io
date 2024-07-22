@@ -1,5 +1,6 @@
 {
   "meta": {
+    "domain": "https://damarts.xyz",
     "title": "Damar - Portfolio",
     "description": "My portfolio website",
     "authors": { "name": "damartripamungkas" },
@@ -297,6 +298,16 @@
     {
       "name": "Telegram",
       "url_redirect": "https://t.me/damartripamungkas"
+    }
+  ],
+  "education": [
+    {
+      "name": "Smk (RPL)",
+      "year": "2020 ~ 2023"
+    },
+    {
+      "name": "Sekolah beta (learn android studio)",
+      "year": "2022 ~ 2022"
     }
   ]
 }

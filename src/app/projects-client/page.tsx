@@ -1,5 +1,5 @@
-import Navbar from "../components/navbar"
-import Container from "../components/container"
+import Navbar from "~/components/navbar"
+import Container from "~/components/container"
 import Card from "./card"
 const { projects_client } = require("~/config/config.json")
 

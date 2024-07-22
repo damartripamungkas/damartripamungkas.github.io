@@ -34,7 +34,6 @@ const RenderModal = ({ isOpen, callbackClose }: IfaceRenderModal) => {
 
 export default function Page() {
   const [openModal, setOpenModal] = useState(false)
-
   return (
     <>
       <RenderModal isOpen={openModal} callbackClose={setOpenModal} />
