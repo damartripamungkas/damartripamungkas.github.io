@@ -82,7 +82,7 @@ export default function Card({ content, extraClassName, imageSrc, imageAlt, href
         }}
       >
         {imageSrc && imageAlt && (
-          <Image alt={imageAlt} src={imageSrc} width={0} height={0} sizes="100%" className="w-full max-h-48" priority={true} quality={100} />
+          <Image alt={imageAlt} src={imageSrc} width={0} height={0} sizes="100%" className="w-full h-52" priority={true} quality={100} />
         )}
         <div className="card-body">
           <div className="text-center">
