@@ -34,28 +34,24 @@ const RenderModal = ({ isOpen, callbackClose }: IfaceRenderModal) => {
 
 export default function Page() {
   const [openModal, setOpenModal] = useState(false)
-
   return (
     <>
       <RenderModal isOpen={openModal} callbackClose={setOpenModal} />
-      <div className="flex flex-row gap-3">
-        <button
-          className="btn btn-neutral"
-          onClick={() => {
-            setOpenModal(true)
-          }}
-        >
-          Resume
-        </button>
-        {/* <a href="/contact" className="btn btn-outline">
-          Contact
-        </a> */}
-
-        {contact.map((it: any, index: number) => (
-          <a key={index} href={it.url_redirect} about={it.name} className="btn btn-sm btn-outline">
-            {it.name}
-          </a>
-        ))}
+      <div className="row space-y-3">
+        <div className="col-6">
+          <button className="btn btn-neutral" onClick={() => setOpenModal(true)}>
+            Resume
+          </button>
+        </div>
+        <div className="col-2">
+          <div className="flex flex-row gap-3">
+            {contact.map((it: any, index: number) => (
+              <a key={index} href={it.url_redirect} about={it.name} className="btn btn-outline">
+                {it.name}
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </>
   )

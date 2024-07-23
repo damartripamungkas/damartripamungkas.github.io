@@ -1,7 +1,8 @@
 {
   "meta": {
+    "domain": "https://damarts.xyz",
     "title": "Damar - Portfolio",
-    "description": "My portfolio website",
+    "description": "I am a software engineer specialized in frontend, backend, and blockchain development.",
     "authors": { "name": "damartripamungkas" },
     "publisher": "damartripamungkas",
     "category": "portfolio",
@@ -19,72 +20,100 @@
       "category": ["software-bot"],
       "image_src": "/projects-me/botdexdamar.png",
       "image_alt": "botdexdamar",
-      "url_repository": "https://github.com/damartripamungkas/botdexdamar",
-      "description": "[PAID] ⚡ Multiblockchain trading bot with sniper, simulation, frontrun, backrun, sandwich"
+      "url_source": "https://github.com/damartripamungkas/botdexdamar",
+      "url_visit": "",
+      "description": "⚡🤖 Multiblockchain trading bot with sniper, simulation, frontrun, backrun, sandwich",
+      "tech_stack": "Typescript, Node.js, Web3.js, Ethers.js, Web3, Windows, Macos, Linux"
     },
     {
       "name": "SIMPLE-DASHBOARD-NEXT-14",
       "category": ["web-app"],
       "image_src": "/projects-me/simple-dashboard-next-14.png",
       "image_alt": "simple-dashboard-next-14",
-      "url_repository": "https://github.com/damartripamungkas/simple-dashboard-next-14",
-      "description": "Application made with next.js 14, typescript, tailwind, daisyui, sequelize, mysql "
+      "url_source": "https://github.com/damartripamungkas/simple-dashboard-next-14",
+      "url_visit": "",
+      "description": "Application made with next.js 14, typescript, tailwind, daisyui, sequelize, mysql",
+      "tech_stack": "Typescript, Next.js, Node.js, TailwindCSS, DaisyUI, SequelizeORM, Mysql"
     },
     {
       "name": "DAMARTRIPAMUNGKAS-GITHUB-IO",
       "category": ["web-app"],
       "image_src": "/projects-me/damartripamungkas.github.io.png",
       "image_alt": "damartripamungkas.github.io",
-      "url_repository": "https://github.com/damartripamungkas/damartripamungkas.github.io",
-      "description": "Simple personal website portfolio"
+      "url_source": "https://github.com/damartripamungkas/damartripamungkas.github.io",
+      "url_visit": "/",
+      "description": "Simple personal website portfolio",
+      "tech_stack": "Typescript, Next.js, Node.js, TailwindCSS, DaisyUI"
     },
     {
       "name": "EHQ-ABSENSI",
       "category": ["web-app"],
       "image_src": "/projects-me/ehq-absensi.png",
       "image_alt": "ehq-absensi",
-      "url_repository": "https://github.com/damartripamungkas/ehq-absensi",
-      "description": "Software absensi qrcode with hardware qrcode scanner"
+      "url_source": "https://github.com/damartripamungkas/ehq-absensi",
+      "url_visit": "",
+      "description": "Software absensi qrcode with hardware qrcode scanner",
+      "tech_stack": "Javascript, Node.js, HTML, CSS, BootstrapCSS, SequelizeORM, Mysql"
     },
     {
       "name": "CUSTOM-KEY-WALLET-CRYPTO",
       "category": ["web"],
       "image_src": "/projects-me/custom-key-wallet-crypto.png",
       "image_alt": "custom-key-wallet-crypto",
-      "url_repository": "https://github.com/damartripamungkas/custom-key-wallet-crypto",
-      "description": "Website will create a cryptocurrency wallet with customized private keys generated from words"
+      "url_source": "https://github.com/damartripamungkas/custom-key-wallet-crypto",
+      "url_visit": "https://damartripamungkas.github.io/custom-key-wallet-crypto",
+      "description": "Website will create a cryptocurrency wallet with customized private keys generated from words",
+      "tech_stack": "Javascript, HTML, CSS, Ethers.js, Web3"
     },
     {
       "name": "NPM-PACKAGE",
       "category": ["package"],
       "image_src": "/projects-me/npm-package.png",
       "image_alt": "npm-package",
-      "url_repository": "https://www.npmjs.com/~damartripamungkas",
-      "description": "The npm (Node Package Manager) libraries/packages that I have created"
+      "url_source": "https://www.npmjs.com/~damartripamungkas",
+      "url_visit": "",
+      "description": "The npm (Node Package Manager) libraries/packages that I have created",
+      "tech_stack": "Typescript, Javascript, Node.js, Frontend, Backend, Web3"
     },
     {
       "name": "MADIG",
       "category": ["webview-android"],
       "image_src": "/projects-me/madig.png",
       "image_alt": "madig",
-      "url_repository": "https://github.com/damartripamungkas/madig",
-      "description": "Contribution project for the Maspion Madig 2023 competition"
+      "url_source": "https://github.com/damartripamungkas/madig",
+      "url_visit": "https://damartripamungkas.github.io/madig",
+      "description": "Contribution project for the Maspion Madig 2023 competition",
+      "tech_stack": "Javascript, WebView Android, Kodular Builder, HTML, CSS, BootstrapCSS"
     },
     {
       "name": "DEMO-TASK-DASHBOARD-MGG-11",
       "category": ["web"],
       "image_src": "/projects-me/demo-task-dashboard-mgg-11.png",
       "image_alt": "demo-task-dashboard-mgg-11",
-      "url_repository": "https://github.com/damartripamungkas/demo-task-dashboard-mgg-11",
-      "description": "Application made with html, css, bootstrap, javascript"
+      "url_source": "https://github.com/damartripamungkas/demo-task-dashboard-mgg-11",
+      "url_visit": "https://damartripamungkas.github.io/demo-task-dashboard-mgg-11",
+      "description": "Application made with html, css, bootstrap, javascript",
+      "tech_stack": "Javascript, HTML, CSS, BootstrapCSS"
     },
     {
       "name": "DEMO-TASK-LANDINGPAGE-MGG-11",
       "category": ["web"],
       "image_src": "/projects-me/demo-task-landingpage-mgg-11.png",
       "image_alt": "demo-task-landingpage-mgg-11",
-      "url_repository": "https://github.com/damartripamungkas/demo-task-landingpage-mgg-11",
-      "description": "Application made with html, css, bootstrap, javascript"
+      "url_source": "https://github.com/damartripamungkas/demo-task-landingpage-mgg-11",
+      "url_visit": "https://damartripamungkas.github.io/demo-task-landingpage-mgg-11",
+      "description": "Application made with html, css, bootstrap, javascript",
+      "tech_stack": "Javascript, HTML, CSS, BootstrapCSS"
+    },
+    {
+      "name": "SIMPLE-PORTFOLIO-MARKDOWN",
+      "category": ["web"],
+      "image_src": "/projects-me/simple-portfolio-markdown.png",
+      "image_alt": "simple-portfolio-markdown",
+      "url_source": "https://github.com/damartripamungkas/simple-portfolio-markdown",
+      "url_visit": "https://damartripamungkas.github.io/simple-portfolio-markdown",
+      "description": "Simple web portfolio using single markdown file",
+      "tech_stack": "Markdown"
     }
   ],
   "projects_client": [
@@ -92,111 +121,131 @@
       "name": "BOTCOTG",
       "category": ["bot"],
       "image_src": "/projects-client/1-1.png",
-      "image_src": "/projects-client/1-1.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#1-1 Bot crypto for swap token with several features"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#1-1 Bot crypto for swap token with several features",
+      "tech_stack": "Typescript, Node.js, Ethers.js, TelegramAPI, Web3"
     },
     {
       "name": "CREATE-PROJECT-STUDY",
       "category": ["script-backend"],
       "image_src": "/projects-client/2-1.png",
-      "image_src": "/projects-client/2-1.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#2-1 Create backend scripts for interaction to blockchain and singleboard PI (iot)"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#2-1 Create backend scripts for interaction to blockchain and singleboard PI (iot)",
+      "tech_stack": "Typescript, C++, Node.js, Ethers.js, Web3"
     },
     {
       "name": "CREATE-BOT",
       "category": ["bot"],
       "image_src": "/projects-client/3-1.png",
-      "image_src": "/projects-client/3-1.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#3-1 Bot auto get mutation and balance from bank web with chromium"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#3-1 Bot auto get mutation and balance from bank web with chromium",
+      "tech_stack": "Typescript, Node.js, Puppeteer.js"
     },
     {
       "name": "HELP-STUDY-PROJECT",
       "category": ["script-backend"],
       "image_src": "/projects-client/4-1.png",
-      "image_src": "/projects-client/4-1.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#4-1 Create script interact to blockchain and REST API"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#4-1 Create script interact to blockchain and REST API",
+      "tech_stack": "Typescript, Node.js, Ethers.js, Web3"
     },
     {
       "name": "AUTO-JOIN-VOICE-CHAT",
       "category": ["bot"],
       "image_src": "/projects-client/5-1.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#5-1 Bot auto join voice chat group in telegram"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#5-1 Bot auto join voice chat group in telegram",
+      "tech_stack": "Typescript, Node.js, TelegramAPI"
     },
     {
       "name": "FILTER-TELEGRAM-USER",
       "category": ["bot"],
       "image_src": "/projects-client/5-2.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#5-2 Bot filtering telegram channel messages and forwarding"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#5-2 Bot filtering telegram channel messages and forwarding",
+      "tech_stack": "Typescript, Node.js, TelegramAPI"
     },
     {
       "name": "HELP-STUDY-PROJECT",
       "category": ["script-fix"],
       "image_src": "/projects-client/6-1.png",
-      "image_src": "/projects-client/6-1.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#6-1 Fix error script in backend, frontend and make tutorial interact to blockchain"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#6-1 Fix error script in backend, frontend and make tutorial interact to blockchain",
+      "tech_stack": "Typescript, Node.js, Next.js, Hardhat, Solidity, Web3"
     },
     {
       "name": "CREATE-SCRIPT",
       "category": ["script-backend"],
       "image_src": "/projects-client/7-1.png",
-      "image_src": "/projects-client/7-1.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#7-1 Create constructor script for interact to blockchain"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#7-1 Create constructor script for interact to blockchain",
+      "tech_stack": "Typescript, Node.js, Ethers.js, Web3"
     },
     {
       "name": "BOT-DALANG-YOUTUBE",
       "category": ["bot"],
       "image_src": "/projects-client/8-1.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#8-1 Bot auto view video youtube in chromium with several features"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#8-1 Bot auto view video youtube in chromium with several features",
+      "tech_stack": "Javascript, Node.js, Shell"
     },
     {
       "name": "AUTO-BROWSER-CHROME",
       "category": ["bot"],
       "image_src": "/projects-client/8-2.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#8-2 Bot auto view video youtube with several features"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#8-2 Bot auto view video youtube with several features",
+      "tech_stack": "Javascript, Node.js, Puppeteer.js, Shell"
     },
     {
       "name": "WEB-FAIRLAUNCH",
       "category": ["web"],
       "image_src": "/projects-client/9-1.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#9-1 Web fairlaunch crypto token"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#9-1 Web fairlaunch crypto token",
+      "tech_stack": "Javascript, HTML, CSS, BootstrapCSS"
     },
     {
       "name": "WEB-BOA",
       "category": ["web"],
       "image_src": "/projects-client/9-2.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#9-2 Web information crypto token"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#9-2 Web information crypto token",
+      "tech_stack": "Javascript, HTML, CSS, BootstrapCSS"
     },
     {
       "name": "WEB-BOB",
       "category": ["web"],
       "image_src": "/projects-client/9-3.png",
       "image_alt": "client",
-      "url_repository": "#",
-      "description": "#9-3 Web information crypto token"
+      "url_source": "",
+      "url_visit": "",
+      "description": "#9-3 Web information crypto token",
+      "tech_stack": "Javascript, HTML, CSS, BootstrapCSS"
     }
   ],
   "skills": [
@@ -303,6 +352,16 @@
     {
       "name": "Telegram",
       "url_redirect": "https://t.me/damartripamungkas"
+    }
+  ],
+  "education": [
+    {
+      "name": "Smk (RPL)",
+      "year": "2020 ~ 2023"
+    },
+    {
+      "name": "Sekolah beta (learn android studio)",
+      "year": "2022 ~ 2022"
     }
   ]
 }

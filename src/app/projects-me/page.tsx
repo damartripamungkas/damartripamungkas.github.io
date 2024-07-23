@@ -1,5 +1,5 @@
-import Navbar from "../components/navbar"
-import Container from "../components/container"
+import Navbar from "../../components/navbar"
+import Container from "../../components/container"
 import Card from "./card"
 const { projects_me } = require("~/config/config.json")
 
@@ -10,16 +10,19 @@ export default function Page() {
       content={
         <>
           <Navbar />
-          <div className="pt-16 pb-16 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="pt-16 pb-16 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10">
             {projects_me.map((it: any, index: number) => {
+              const { name, description, url_source, url_visit, image_src, image_alt, tech_stack } = it
               return (
                 <Card
                   key={index}
-                  href={it.url_repository}
+                  urlSource={url_source}
+                  urlVisit={url_visit}
                   extraClassName={`card-compact hover:bg-base-200 transition`}
-                  imageSrc={it.image_src}
-                  imageAlt={it.image_alt}
-                  content={{ title: it.name, description: it.description }}
+                  imageSrc={image_src}
+                  imageAlt={image_alt}
+                  techStack={tech_stack}
+                  content={{ title: name, description }}
                 />
               )
             })}

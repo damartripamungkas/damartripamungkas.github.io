@@ -1,15 +1,5 @@
-"use client"
 import Image from "next/image"
-import { useState } from "react"
-
-interface IfaceRenderModal {
-  isOpen: boolean
-  callbackClose: any
-  contentTitle: string
-  contentImageSrc: string
-  contentImageAlt: string
-  contentVisitHref: string
-}
+import { FiGithub, FiGlobe } from "react-icons/fi"
 
 interface IfaceCard {
   content: {
@@ -19,60 +9,50 @@ interface IfaceCard {
   extraClassName?: string
   imageSrc?: any
   imageAlt?: any
-  href: string
+  urlSource: string
+  urlVisit: string
+  techStack: string
 }
 
-const RenderModal = ({ isOpen, callbackClose, contentTitle, contentImageSrc, contentImageAlt, contentVisitHref }: IfaceRenderModal) => {
+export default function Card({ content, extraClassName, imageSrc, imageAlt, urlSource, urlVisit, techStack }: IfaceCard) {
+  const haveUrlSource = urlSource.length >= 1
+  const haveUrlVisit = urlVisit.length >= 1
   return (
-    <dialog className="modal" open={isOpen}>
-      <div className="modal-box w-full sm:max-w-full md:max-w-6xl lg:max-w-5xl">
-        <h3 className="font-bold text-lg">{contentTitle}</h3>
-        <Image src={contentImageSrc} className="pt-6 h-full w-full" alt={contentImageAlt} width={0} height={0} priority={true} sizes="100%" quality={100} />
-        <div className="modal-action">
-          <a
-            href={contentVisitHref}
-            className="btn btn-md btn-neutral mx-2 px-8"
-            onClick={() => {
-              callbackClose(false)
-            }}
-          >
-            Visit
-          </a>
+    <div className={`card outline rounded-none ${extraClassName}`}>
+      {imageSrc && imageAlt && (
+        <Image alt={imageAlt} src={imageSrc} width={0} height={0} sizes="100%" className="h-52 w-full" priority={true} quality={100} />
+      )}
+      <div className="card-body">
+        <p className="sm:text-md md:text-md lg:text-lg font-bold">{content.title}</p>
+        <p className="pt-2">{content.description}</p>
+      </div>
+      <div className="card-footer px-3 pb-3">
+        <div className={`flex flex-wrap gap-1 ${(haveUrlSource || haveUrlVisit) && `pb-3`}`}>
+          {techStack.split(`, `).map((it, index) => {
+            return (
+              <button key={index} className="btn btn-xs text-xs rounded">
+                {it}
+              </button>
+            )
+          })}
+        </div>
 
-          <button
-            className="btn btn-md btn-neutral"
-            onClick={() => {
-              callbackClose(false)
-            }}
-          >
-            Close
-          </button>
+        <div className="flex flex-wrap gap-2">
+          {haveUrlSource && (
+            <a href={urlSource} className="btn btn-sm btn-outline text-xs rounded">
+              <FiGithub className="h-4 w-4" />
+              Source
+            </a>
+          )}
+
+          {haveUrlVisit && (
+            <a href={urlVisit} className="btn btn-sm btn-outline text-xs rounded">
+              <FiGlobe className="h-4 w-4" />
+              Visit
+            </a>
+          )}
         </div>
       </div>
-    </dialog>
-  )
-}
-
-export default function Card({ content, extraClassName, imageSrc, imageAlt, href }: IfaceCard) {
-  const [statusModal, setStatusModal] = useState(false)
-
-  return (
-    <>
-      <RenderModal isOpen={statusModal} callbackClose={setStatusModal} contentTitle={content.title} contentImageSrc={imageSrc} contentImageAlt={imageAlt} contentVisitHref={href} />
-      <div
-        className={`card outline rounded-none ${extraClassName}`}
-        onClick={() => {
-          setStatusModal(true)
-        }}
-      >
-        {imageSrc && imageAlt && <Image alt={imageAlt} src={imageSrc} width={0} height={0} sizes="100%" className="h-64 w-full" priority={true} quality={100} />}
-        <div className="card-body">
-          <div className="text-center">
-            <p className="sm:text-md md:text-md lg:text-lg font-bold">{content.title}</p>
-            <p className="pt-2">{content.description}</p>
-          </div>
-        </div>
-      </div>
-    </>
+    </div>
   )
 }

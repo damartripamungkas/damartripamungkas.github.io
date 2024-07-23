@@ -1,8 +1,8 @@
-import Container from "../../components/container"
-import Navbar from "../../components/navbar"
-const { skills } = require("~/config/config.json")
+import Container from "~/components/container"
+import Navbar from "~/components/navbar"
+const { education } = require("~/config/config.json")
 
-export default function Page() {
+export default function Education() {
   return (
     <Container
       extraClassName="min-h-screen max-h-screen"
@@ -14,19 +14,15 @@ export default function Page() {
               <table className="table table-xs lg:table-sm">
                 <thead>
                   <tr>
-                    <th>#</th>
-                    <th>Skill</th>
-                    <th>Type</th>
-                    <th>Understanding</th>
+                    <th>Name</th>
+                    <th>Year</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {skills.map((it: any, index: number) => (
+                  {education.map((it: any, index: number) => (
                     <tr key={index + 1} className="hover:bg-base-200">
-                      <th>{index + 1}</th>
-                      <td>{it.skill}</td>
-                      <td>{it.type}</td>
-                      <td>{it.understanding}</td>
+                      <td>{it.name}</td>
+                      <td>{it.year}</td>
                     </tr>
                   ))}
                 </tbody>
