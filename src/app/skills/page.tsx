@@ -1,5 +1,5 @@
-import Container from "../../components/container"
-import Navbar from "../../components/navbar"
+import Container from "../../components/ui/container"
+import Navbar from "../../components/ui/navbar"
 const { skills } = require("~/config/config.json")
 
 export default function Page() {

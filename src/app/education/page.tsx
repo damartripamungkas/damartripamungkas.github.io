@@ -1,5 +1,5 @@
 import Container from "~/components/container"
-import Navbar from "~/components/navbar"
+import Navbar from "~/components/ui/navbar"
 const { education } = require("~/config/config.json")
 
 export default function Education() {
