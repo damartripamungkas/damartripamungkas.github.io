@@ -22,9 +22,9 @@ export default function Card({ content, extraClassName, imageSrc, imageAlt, urlS
       {imageSrc && imageAlt && (
         <Image alt={imageAlt} src={imageSrc} width={0} height={0} sizes="100%" className="h-52 w-full" priority={true} quality={100} />
       )}
-      <div className="card-body">
+      <div className="card-body flex">
         <p className="sm:text-md md:text-md lg:text-lg font-bold">{content.title}</p>
-        <p className="pt-2">{content.description}</p>
+        <p>{content.description}</p>
       </div>
       <div className="card-footer px-3 pb-3">
         <div className={`flex flex-wrap gap-1 ${(haveUrlSource || haveUrlVisit) && `pb-3`}`}>
