@@ -246,6 +246,16 @@
       "url_visit": "",
       "description": "#9-3 Web information crypto token",
       "tech_stack": "Javascript, HTML, CSS, BootstrapCSS"
+    },
+    {
+      "name": "WEB-FAIRLAUNCH",
+      "category": ["web"],
+      "image_src": "/projects-client/9-4.png",
+      "image_alt": "client",
+      "url_source": "",
+      "url_visit": "",
+      "description": "#9-4 Web fairlaunch crypto token",
+      "tech_stack": "Javascript, HTML, CSS, SCSS, BootstrapCSS"
     }
   ],
   "skills": [
