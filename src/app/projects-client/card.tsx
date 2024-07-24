@@ -24,7 +24,7 @@ export default function Card({ content, extraClassName, imageSrc, imageAlt, urlS
       )}
       <div className="card-body">
         <p className="sm:text-md md:text-md lg:text-lg font-bold">{content.title}</p>
-        <p className="pt-2">{content.description}</p>
+        <p>{content.description}</p>
       </div>
       <div className="card-footer px-3 pb-3">
         <div className={`flex flex-wrap gap-1 ${(haveUrlSource || haveUrlVisit) && `pb-3`}`}>
