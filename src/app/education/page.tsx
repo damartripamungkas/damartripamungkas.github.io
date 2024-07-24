@@ -1,4 +1,4 @@
-import Container from "~/components/container"
+import Container from "~/components/ui/container"
 import Navbar from "~/components/ui/navbar"
 const { education } = require("~/config/config.json")
 

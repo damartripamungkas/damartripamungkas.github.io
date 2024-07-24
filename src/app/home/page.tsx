@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Navbar from "~/components/ui/navbar"
-import Container from "~/components/container"
+import Container from "~/components/ui/container"
 import BtnHome from "./btn"
 const { home } = require("~/config/config.json")
 

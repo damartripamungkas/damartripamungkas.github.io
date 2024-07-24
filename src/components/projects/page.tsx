@@ -1,6 +1,6 @@
 import Card from "./card"
 import Navbar from "~/components/ui/navbar"
-import Container from "~/components/container"
+import Container from "~/components/ui/container"
 
 export default function Page({ data }: { data: any[] }) {
   return (
