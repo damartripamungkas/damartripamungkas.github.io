@@ -66,6 +66,16 @@
       "tech_stack": "Javascript, HTML, CSS, Ethers.js, Web3"
     },
     {
+      "name": "STRONG-PASSWORD-GENERATOR",
+      "category": ["web"],
+      "image_src": "/projects-me/strong-password-generator.png",
+      "image_alt": "strong-password-generator",
+      "url_source": "https://github.com/damartripamungkas/strong-password-generator",
+      "url_visit": "https://damartripamungkas.github.io/strong-password-generator",
+      "description": "Strong password generator for account on internet like facebook, google, tiktok or others",
+      "tech_stack": "Javascript, HTML, CSS, Crypto-api.js"
+    },
+    {
       "name": "NPM-PACKAGE",
       "category": ["package"],
       "image_src": "/projects-me/npm-package.png",
