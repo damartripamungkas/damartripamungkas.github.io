@@ -48,7 +48,7 @@
     {
       "name": "SIMPLE-DASHBOARD-NEXT-14",
       "category": ["web-app"],
-      "image_src": "/projects-me/simple-dashboard-next-14.png",
+      "image_src": "https://raw.githubusercontent.com/damartripamungkas/simple-dashboard-next-14/master/public/home.png",
       "image_alt": "simple-dashboard-next-14",
       "url_source": "https://github.com/damartripamungkas/simple-dashboard-next-14",
       "url_visit": "",
@@ -58,7 +58,7 @@
     {
       "name": "DAMARTRIPAMUNGKAS-GITHUB-IO",
       "category": ["web-app"],
-      "image_src": "/projects-me/damartripamungkas.github.io.png",
+      "image_src": "https://raw.githubusercontent.com/damartripamungkas/damartripamungkas.github.io/master/screenshot/home.png",
       "image_alt": "damartripamungkas.github.io",
       "url_source": "https://github.com/damartripamungkas/damartripamungkas.github.io",
       "url_visit": "/",
@@ -68,7 +68,7 @@
     {
       "name": "EHQ-ABSENSI",
       "category": ["web-app"],
-      "image_src": "/projects-me/ehq-absensi.png",
+      "image_src": "https://raw.githubusercontent.com/damartripamungkas/ehq-absensi/master/images/home.png",
       "image_alt": "ehq-absensi",
       "url_source": "https://github.com/damartripamungkas/ehq-absensi",
       "url_visit": "",
@@ -88,7 +88,7 @@
     {
       "name": "MADIG",
       "category": ["webview-android"],
-      "image_src": "/projects-me/madig.png",
+      "image_src": "https://raw.githubusercontent.com/damartripamungkas/madig/main/screnshoot.png",
       "image_alt": "madig",
       "url_source": "https://github.com/damartripamungkas/madig",
       "url_visit": "https://damartripamungkas.github.io/madig",
@@ -98,7 +98,7 @@
     {
       "name": "DEMO-TASK-DASHBOARD-MGG-11",
       "category": ["web"],
-      "image_src": "/projects-me/demo-task-dashboard-mgg-11.png",
+      "image_src": "https://raw.githubusercontent.com/damartripamungkas/demo-task-dashboard-mgg-11/main/home.png",
       "image_alt": "demo-task-dashboard-mgg-11",
       "url_source": "https://github.com/damartripamungkas/demo-task-dashboard-mgg-11",
       "url_visit": "https://damartripamungkas.github.io/demo-task-dashboard-mgg-11",
@@ -108,7 +108,7 @@
     {
       "name": "DEMO-TASK-LANDINGPAGE-MGG-11",
       "category": ["web"],
-      "image_src": "/projects-me/demo-task-landingpage-mgg-11.png",
+      "image_src": "https://raw.githubusercontent.com/damartripamungkas/demo-task-landingpage-mgg-11/main/home.png",
       "image_alt": "demo-task-landingpage-mgg-11",
       "url_source": "https://github.com/damartripamungkas/demo-task-landingpage-mgg-11",
       "url_visit": "https://damartripamungkas.github.io/demo-task-landingpage-mgg-11",
