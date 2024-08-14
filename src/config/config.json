@@ -26,6 +26,26 @@
       "tech_stack": "Typescript, Node.js, Web3.js, Ethers.js, Web3, Windows, Macos, Linux"
     },
     {
+      "name": "CUSTOM-KEY-WALLET-CRYPTO",
+      "category": ["web"],
+      "image_src": "https://raw.githubusercontent.com/damartripamungkas/custom-key-wallet-crypto/main/screenshot/home.png",
+      "image_alt": "custom-key-wallet-crypto",
+      "url_source": "https://github.com/damartripamungkas/custom-key-wallet-crypto",
+      "url_visit": "https://damartripamungkas.github.io/custom-key-wallet-crypto",
+      "description": "Website will create a cryptocurrency wallet with customized private keys generated from words",
+      "tech_stack": "Javascript, HTML, CSS, Ethers.js, Web3"
+    },
+    {
+      "name": "STRONGPG",
+      "category": ["web"],
+      "image_src": "https://raw.githubusercontent.com/damartripamungkas/strongpg/main/screenshot/home.png",
+      "image_alt": "strongpg",
+      "url_source": "https://github.com/damartripamungkas/strong-password-generator",
+      "url_visit": "https://damartripamungkas.github.io/strongpg",
+      "description": "Strong password generator for account on internet like facebook, google, tiktok or others",
+      "tech_stack": "Javascript, HTML, CSS, Crypto-api.js"
+    },
+    {
       "name": "SIMPLE-DASHBOARD-NEXT-14",
       "category": ["web-app"],
       "image_src": "/projects-me/simple-dashboard-next-14.png",
@@ -54,26 +74,6 @@
       "url_visit": "",
       "description": "Software absensi qrcode with hardware qrcode scanner",
       "tech_stack": "Javascript, Node.js, HTML, CSS, BootstrapCSS, SequelizeORM, Mysql"
-    },
-    {
-      "name": "CUSTOM-KEY-WALLET-CRYPTO",
-      "category": ["web"],
-      "image_src": "/projects-me/custom-key-wallet-crypto.png",
-      "image_alt": "custom-key-wallet-crypto",
-      "url_source": "https://github.com/damartripamungkas/custom-key-wallet-crypto",
-      "url_visit": "https://damartripamungkas.github.io/custom-key-wallet-crypto",
-      "description": "Website will create a cryptocurrency wallet with customized private keys generated from words",
-      "tech_stack": "Javascript, HTML, CSS, Ethers.js, Web3"
-    },
-    {
-      "name": "STRONGPG",
-      "category": ["web"],
-      "image_src": "https://raw.githubusercontent.com/damartripamungkas/strongpg/main/screenshot/home.png",
-      "image_alt": "strongpg",
-      "url_source": "https://github.com/damartripamungkas/strong-password-generator",
-      "url_visit": "https://damartripamungkas.github.io/strongpg",
-      "description": "Strong password generator for account on internet like facebook, google, tiktok or others",
-      "tech_stack": "Javascript, HTML, CSS, Crypto-api.js"
     },
     {
       "name": "NPM-PACKAGE",
