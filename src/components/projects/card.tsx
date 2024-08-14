@@ -20,7 +20,9 @@ export default function Card({ content, extraClassName, imageSrc, imageAlt, urlS
   return (
     <div className={`card outline rounded-none ${extraClassName}`}>
       {imageSrc && imageAlt && (
-        <Image alt={imageAlt} src={imageSrc} width={0} height={0} sizes="100%" className="h-52 w-full" priority={true} quality={100} />
+        <a href={imageSrc}>
+          <Image alt={imageAlt} src={imageSrc} width={0} height={0} sizes="100%" className="h-52 w-full" priority={true} quality={100} />
+        </a>
       )}
       <div className="card-body flex">
         <p className="sm:text-md md:text-md lg:text-lg font-bold">{content.title}</p>
