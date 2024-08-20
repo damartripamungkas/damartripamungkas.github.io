@@ -266,6 +266,16 @@
       "url_visit": "",
       "description": "#9-4 Web fairlaunch crypto token",
       "tech_stack": "Javascript, HTML, CSS, SCSS, BootstrapCSS"
+    },
+    {
+      "name": "WEB3-DAPP-ELECTRICT",
+      "category": ["web3", "web-app"],
+      "image_src": "/projects-client/10-1.png",
+      "image_alt": "client",
+      "url_source": "",
+      "url_visit": "",
+      "description": "#10-1 Web3 application interacting with blockchain with the feature of buying/selling goods using smart contract python and solidity",
+      "tech_stack": "Typescript, Next.js, Node.js, TailwindCSS, shadcnUI, Smart.py, Solidity"
     }
   ],
   "skills": [
