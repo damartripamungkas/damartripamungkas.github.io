@@ -1,14 +1,7 @@
 "use client"
 import { usePathname } from "next/navigation"
 import { FiMenu } from "react-icons/fi"
-
-const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Education", href: "/education" },
-  { name: "Projects Me", href: "/projects-me" },
-  { name: "Projects Client", href: "/projects-client" },
-  { name: "Skills", href: "/skills" }
-]
+const { path_route } = require(`~/config/config.json`)
 
 const classNames = (...classes: string[]) => {
   return classes.filter(Boolean).join(" ")
@@ -21,7 +14,6 @@ export default function Navbar() {
       <div className="flex">
         <div className="flex flex-shrink-0 items-center">
           <a href="/">
-            {/* <FiCpu className="h-8 w-8 text-sm" /> */}
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" className="text-neutral-content" xmlns="http://www.w3.org/2000/svg">
               <rect width="100%" height="100%" rx="16" fill="currentColor" />
               <path
@@ -34,7 +26,7 @@ export default function Navbar() {
           </a>
         </div>
         <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-          {navigation.map((item) => (
+          {path_route.map((item) => (
             <a
               key={item.name}
               href={item.href}
@@ -49,16 +41,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-        <div className="flex">
-          <div className="flex flex-shrink-0 items-center">
-            {/* <button className="btn btn-circle btn-sm" onClick={onClickSetTheme}>
-              {isClient ? iconTheme : <span className="loading loading-spinner"></span>}
-            </button> */}
-          </div>
-        </div>
-      </div>
-
       <div className="-mr-2 flex items-center sm:hidden">
         <div className="drawer z-50">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
@@ -70,16 +52,11 @@ export default function Navbar() {
           <div className="drawer-side overflow-hidden">
             <label htmlFor="my-drawer" className="drawer-overlay"></label>
             <ul className="menu p-5 w-8/12 min-h-full bg-base-200 text-base-content">
-              {[
-                ...navigation.map((it, index: number) => (
-                  <li key={index}>
-                    <a href={it.href}>{it.name}</a>
-                  </li>
-                ))
-                // <li key={navigation.length} className="pt-3">
-                //   <a onClick={onClickSetTheme}>{isClient ? iconTheme : <span className="loading loading-spinner"></span>}</a>
-                // </li>
-              ]}
+              {path_route.map((it, index: number) => (
+                <li key={index}>
+                  <a href={it.href}>{it.name}</a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
