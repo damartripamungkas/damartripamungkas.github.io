@@ -26,7 +26,7 @@ export default function Navbar() {
           </a>
         </div>
         <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-          {path_route.map((item) => (
+          {path_route.map((item: any) => (
             <a
               key={item.name}
               href={item.href}
@@ -52,7 +52,7 @@ export default function Navbar() {
           <div className="drawer-side overflow-hidden">
             <label htmlFor="my-drawer" className="drawer-overlay"></label>
             <ul className="menu p-5 w-8/12 min-h-full bg-base-200 text-base-content">
-              {path_route.map((it, index: number) => (
+              {path_route.map((it: any, index: number) => (
                 <li key={index}>
                   <a href={it.href}>{it.name}</a>
                 </li>
