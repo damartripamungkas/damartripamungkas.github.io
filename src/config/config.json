@@ -281,7 +281,7 @@
       "image_alt": "client",
       "url_source": "",
       "url_visit": "",
-      "description": "#10-1 Web3 application interacting with blockchain with the feature of buying/selling using smart contract python and solidity",
+      "description": "#10-1 Web3 dapp interacting to blockchain with the feature of buying/selling using smart contract python and solidity",
       "tech_stack": "Typescript, Next.js, Node.js, TailwindCSS, shadcnUI, Smart.py, Solidity, Web3, Dapp"
     }
   ],
