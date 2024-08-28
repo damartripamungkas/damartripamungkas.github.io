@@ -8,6 +8,13 @@
     "category": "portfolio",
     "keywords": "damar, damarts, damartripamungkas, next.js, react.js, node.js, html"
   },
+  "path_route": [
+    { "name": "Home", "href": "/" },
+    { "name": "Projects Me", "href": "/projects-me" },
+    { "name": "Projects Client", "href": "/projects-client" },
+    { "name": "Skills", "href": "/skills" },
+    { "name": "Education", "href": "/education" }
+  ],
   "home": {
     "image_src": "/profile.png",
     "image_alt": "damartripamungkas",
