@@ -22,16 +22,13 @@
 
 ### 📖 Description :
 
-This application was created as a portfolio piece. It is very versatile, suitable for displaying anyone's work, because it has a universal theme. You won't need to go through a complicated setup process since I have already defined the configuration in the config.json file (see src file). This application was built using Next.js 14, Tailwind, and DaisyUI.
-
-- support change theme dark
-- build with server side rendering (SSR) suitable for SEO
+This application was created as a portfolio piece. It is very versatile, suitable for displaying anyone's work, because it has a universal theme. You won't need to go through a complicated setup process since I have already defined the configuration in the config.json file (see on src/config). This application was built using Next.js 14, Tailwind, and DaisyUI.
 
 ### 💻 Step to install :
 
 1. clone repository
 2. setting configuration in file ./src/config/config.json
-3. upload image in folder public
+3. upload image in folder public (optional)
 4. npm install
 5. npm run dev
 
@@ -43,4 +40,4 @@ node.js
 
 ### 📝 License :
 
-Licensed under the [MIT License](./LICENSE).
+Licensed see [here](./LICENSE).
