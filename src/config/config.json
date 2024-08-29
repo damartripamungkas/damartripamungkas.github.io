@@ -165,14 +165,14 @@
       "tech_stack": "Typescript, Node.js, Puppeteer.js"
     },
     {
-      "name": "HELP-STUDY-PROJECT",
+      "name": "REST-API-TO-BLOCKCHAIN",
       "category": ["script-backend"],
       "image_src": "/projects-client/4-1.png",
       "image_alt": "client",
       "url_source": "",
       "url_visit": "",
-      "description": "#4-1 Create script interact to blockchain and REST API",
-      "tech_stack": "Typescript, Node.js, Ethers.js, Web3"
+      "description": "#4-1 Script REST-API for interaction to blockchain to perform method to smartcontract",
+      "tech_stack": "Typescript, Node.js, Ethers.js, Solidity, Web3"
     },
     {
       "name": "AUTO-JOIN-VOICE-CHAT",
