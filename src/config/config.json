@@ -145,14 +145,14 @@
       "tech_stack": "Typescript, Node.js, Ethers.js, TelegramAPI, Web3"
     },
     {
-      "name": "CREATE-PROJECT-STUDY",
-      "category": ["script-backend"],
+      "name": "NFT-IOT",
+      "category": ["web3", "script-backend"],
       "image_src": "/projects-client/2-1.png",
       "image_alt": "client",
       "url_source": "",
       "url_visit": "",
-      "description": "#2-1 Create backend scripts for interaction to blockchain and singleboard PI (iot)",
-      "tech_stack": "Typescript, C++, Node.js, Ethers.js, Web3"
+      "description": "#2-1 Scripts for interaction to blockchain and PI (iot) single boards integrated with NFT smartcontracts",
+      "tech_stack": "Typescript, C++, Node.js, Ethers.js, Solidity, Web3"
     },
     {
       "name": "CREATE-BOT",
