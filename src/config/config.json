@@ -276,7 +276,7 @@
     },
     {
       "name": "WEB3-DAPP",
-      "category": ["web3", "web-app"],
+      "category": ["web3", "dapp", "web-app"],
       "image_src": "/projects-client/10-1.png",
       "image_alt": "client",
       "url_source": "",
