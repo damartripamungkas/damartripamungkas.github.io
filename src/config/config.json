@@ -195,23 +195,23 @@
       "tech_stack": "Typescript, Node.js, TelegramAPI"
     },
     {
-      "name": "HELP-STUDY-PROJECT",
+      "name": "FIX-DAPP",
       "category": ["script-fix"],
       "image_src": "/projects-client/6-1.png",
       "image_alt": "client",
       "url_source": "",
       "url_visit": "",
       "description": "#6-1 Fix error script in backend, frontend and make tutorial interact to blockchain",
-      "tech_stack": "Typescript, Node.js, Next.js, Hardhat, Solidity, Web3"
+      "tech_stack": "Typescript, Node.js, Next.js, Hardhat, Solidity, Web3, Dapp"
     },
     {
-      "name": "CREATE-SCRIPT",
-      "category": ["script-backend"],
+      "name": "SWAP-UNISWAP-V2",
+      "category": ["web3", "script-backend"],
       "image_src": "/projects-client/7-1.png",
       "image_alt": "client",
       "url_source": "",
       "url_visit": "",
-      "description": "#7-1 Create constructor script for interact to blockchain",
+      "description": "#7-1 Script for interaction to blockchain to perform crypto swap method to smartcontract uniswapV2",
       "tech_stack": "Typescript, Node.js, Ethers.js, Web3"
     },
     {
