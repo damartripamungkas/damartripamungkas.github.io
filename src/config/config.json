@@ -33,9 +33,9 @@
       "tech_stack": "Typescript, Node.js, Web3.js, Ethers.js, Web3, Windows, Macos, Linux"
     },
     {
-      "name": "WEB3-DAPP-STORECAR",
+      "name": "STORECAR",
       "category": ["web", "web-app", "web3", "dapp"],
-      "image_src": "https://scontent.fsub9-1.fna.fbcdn.net/v/t39.30808-6/459478138_1529184355143206_5335502495522642369_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGL2mgClpIFfUE20aBv3QiirzHrjkZgaDWvMeuORmBoNRHvB17wp5vCZM-Pyh9oWxBH_90H5pnihpjClP9qpdb_&_nc_ohc=qgXKX23Im0IQ7kNvgEQ64aM&_nc_ht=scontent.fsub9-1.fna&oh=00_AYBn6TWysTn8EPrxPnXtwDwak5eQgSuwyVO0zbgADPfQtw&oe=66F5E758",
+      "image_src": "/projects-me/storecar.png",
       "image_alt": "web3-dapp-storecar",
       "url_source": "",
       "url_visit": "https://storecar.vercel.app",
