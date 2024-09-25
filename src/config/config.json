@@ -39,7 +39,7 @@
       "image_alt": "web3-dapp-storecar",
       "url_source": "",
       "url_visit": "https://storecar.vercel.app",
-      "description": "Web3 dapp decentralized trade car with special smartcontract solidity and interacting to blockchain EVM (BSC TESTNET)",
+      "description": "Web3 dapp trade car with special smartcontract solidity and interacting to blockchain EVM (BSC TESTNET)",
       "tech_stack": "Typescript, Next.js, Node.js, TailwindCSS, Solidity, Web3, Dapp"
     },
     {
