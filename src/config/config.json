@@ -13,7 +13,8 @@
     { "name": "Projects Me", "href": "/projects-me" },
     { "name": "Projects Client", "href": "/projects-client" },
     { "name": "Skills", "href": "/skills" },
-    { "name": "Education", "href": "/education" }
+    { "name": "Education", "href": "/education" },
+    { "name": "Donate", "href": "/donate" }
   ],
   "home": {
     "image_src": "/profile.png",
@@ -405,6 +406,16 @@
     {
       "name": "Smk (rekayasa perangkat lunak)",
       "year": "2020 ~ 2023"
+    }
+  ],
+  "donate": [
+    {
+      "platform": "Sociabuzz",
+      "dest": "https://sociabuzz.com/damarts/donate"
+    },
+    {
+      "platform": "Crypto EVM",
+      "dest": "0x106afd8f747687876fa9b096ff20a78620621af3"
     }
   ]
 }
