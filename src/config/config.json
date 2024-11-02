@@ -44,6 +44,16 @@
       "tech_stack": "Typescript, Next.js, Node.js, TailwindCSS, Solidity, Web3, Dapp"
     },
     {
+      "name": "TELEGRAM-BOT-NEWSLETTER",
+      "category": ["bot", "telegram"],
+      "image_src": "/projects-me/telegram-bot-newsletter.png",
+      "image_alt": "telegram-bot-newsletter",
+      "url_source": "",
+      "url_visit": "",
+      "description": "Bot telegram context newsletter. broadcast text, photo and video features are available",
+      "tech_stack": "Typescript, Node.js, NoSQL, TelegramAPI"
+    },
+    {
       "name": "CUSTOM-KEY-WALLET-CRYPTO",
       "category": ["web"],
       "image_src": "https://raw.githubusercontent.com/damartripamungkas/custom-key-wallet-crypto/main/screenshot/home.png",
