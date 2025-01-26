@@ -25,12 +25,12 @@
   "projects_me": [
     {
       "name": "BOTDEXDAMAR",
-      "category": ["opS", "software-bot"],
+      "category": ["on-premise", "software-bot"],
       "image_src": "/projects-me/botdexdamar.png",
       "image_alt": "botdexdamar",
       "url_source": "https://github.com/damartripamungkas/botdexdamar",
       "url_visit": "",
-      "description": "[opS] Multiblockchain trading bot with sniper, simulation, frontrun, backrun, sandwich",
+      "description": "[on-premise] Multiblockchain trading bot with sniper, simulation, frontrun, backrun, sandwich",
       "tech_stack": "Typescript, Node.js, Web3.js, Ethers.js, Web3, Windows, Macos, Linux"
     },
     {
