@@ -25,7 +25,7 @@
   "projects_me": [
     {
       "name": "BOTDEXDAMAR",
-      "category": ["on-premise", "software-bot"],
+      "category": ["On-premise", "software-bot"],
       "image_src": "/projects-me/botdexdamar.png",
       "image_alt": "botdexdamar",
       "url_source": "https://github.com/damartripamungkas/botdexdamar",
