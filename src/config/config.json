@@ -66,7 +66,7 @@
     {
       "name": "UFG",
       "category": ["web"],
-      "image_src": "https://raw.githubusercontent.com/damartripamungkas/universal-frame-grid/main/screenshot/home.png",
+      "image_src": "/projects-me/ufg.png",
       "image_alt": "ufg",
       "url_source": "https://github.com/damartripamungkas/universal-frame-grid",
       "url_visit": "https://damartripamungkas.github.io/universal-frame-grid",
