@@ -420,6 +420,14 @@
     {
       "name": "Telegram",
       "url_redirect": "https://t.me/damartripamungkas"
+    },
+    {
+      "name": "Projects Me",
+      "url_redirect": "/projects-me"
+    },
+    {
+      "name": "Projects For Client",
+      "url_redirect": "/projects-client"
     }
   ],
   "education": [
