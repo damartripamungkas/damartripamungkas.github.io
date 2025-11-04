@@ -44,9 +44,9 @@ export default function Page() {
           </button>
         </div>
         <div className="col-2">
-          <div className="flex flex-row gap-3">
+          <div className="flex flex-row flex-wrap gap-3">
             {contact.map((it: any, index: number) => (
-              <a key={index} href={it.url_redirect} about={it.name} className="btn btn-outline">
+              <a key={index} href={it.url_redirect} about={it.name} className={`btn btn-${it?.type}`}>
                 {it.name}
               </a>
             ))}

@@ -411,23 +411,28 @@
   "contact": [
     {
       "name": "Github",
-      "url_redirect": "https://github.com/damartripamungkas"
+      "url_redirect": "https://github.com/damartripamungkas",
+      "type": "outline"
     },
     {
       "name": "Email",
-      "url_redirect": "mailto:damartripamungkas01@gmail.com"
+      "url_redirect": "mailto:damartripamungkas01@gmail.com",
+      "type": "outline"
     },
     {
       "name": "Telegram",
-      "url_redirect": "https://t.me/damartripamungkas"
+      "url_redirect": "https://t.me/damartripamungkas",
+      "type": "outline"
     },
     {
       "name": "Projects Me",
-      "url_redirect": "/projects-me"
+      "url_redirect": "/projects-me",
+      "type": "secondary"
     },
     {
       "name": "Projects For Client",
-      "url_redirect": "/projects-client"
+      "url_redirect": "/projects-client",
+      "type": "neutral"
     }
   ],
   "education": [
